@@ -12,13 +12,20 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-es2015-loose": "^7.0.0",
     "babel-preset-react": "^6.3.13",
-    "babel-preset-stage-0": "^6.5.0"
+    "babel-preset-stage-0": "^6.5.0",
+    "immutable": "^3.8.1",
+    "jquery": "^3.1.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "hello" : "echo hellp",
-    "build" : "webpack --progress --config ./webpack.config.js"
+    "hello": "echo hellp",
+    "build": "webpack --progress --config ./webpack.config.js"
   },
   "author": "",
   "license": "ISC"
